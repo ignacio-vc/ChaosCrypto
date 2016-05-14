@@ -2,7 +2,9 @@
 
 ## Uso del caos para transmitir mensajes encriptados
 
-### Links utiles:
+### Colaboradores: Yuriko Yamamoto (@Yuriyama), David Amaro Alcala (@davidamaro) , Ignacio Vargas (@ignacio-vc)
+
+#### Links utiles:
 
 [Nonlinear Dynamics and Chaos - Strogatz (2014)](http://libgen.io/get.php?md5=93608D1E7D48FF61D25173674AF85BD7&key=ALGOHY9BRV5DVM5D "Lib Genesis")
 
@@ -10,7 +12,7 @@
 
 [Handbook of Chaos Control](http://libgen.io/get.php?md5=97455994EC81072A20A21293532926D1&key=I33OJ1BYKTFE0R1S "Lib Genesis")
 
-[Using Chaos to Send Secret Messages (powerpoint)](http://bulldog2.redlands.edu/fac/joanna_bieri/nonlinear/Chotic_Messages.pdf "powerpoint")
+[Using Chaos to Send Secret Messages](http://bulldog2.redlands.edu/fac/joanna_bieri/nonlinear/Chotic_Messages.pdf "powerpoint")
 
 [Edward Lorenz's Strange Attraction](https://logicaltightrope.com/2013/08/29/edward-lorenzs-strange-attraction/ "blog")
 
@@ -20,7 +22,7 @@
 
 [Chaotic Encryption Method Based on Life-like Cellular Automata](http://arxiv.org/pdf/1112.6326v1.pdf "articulo")
 
-[The Research of Image enceyption Algorithm Base don Chaos Clelular Auatomata](https://pdfs.semanticscholar.org/bff7/e1fc9a4201e9b50b16314ceffd13c024edf4.pdf "articulo")
+[The Research of Image Encryption Algorithms Based on Chaos Cellular Automata](https://pdfs.semanticscholar.org/bff7/e1fc9a4201e9b50b16314ceffd13c024edf4.pdf "articulo")
 
 [New Possiblities for Cellular Automata in Cryptography](http://www.criptored.upm.es/cibsi/cibsi2011/info/Ponencias/5.%20New%20Possibilities%20for%20Cellular%20Automata%20in%20Cryptography.pdf "presentacion")
 
