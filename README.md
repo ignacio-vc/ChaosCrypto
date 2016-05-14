@@ -3,13 +3,13 @@
 Uso del caos para transmitir mensajes encriptados
 
 #### Autores: 
-- ([Yuriko Yamamoto](https://github.com/Yuriyama "Yuriyama"))
-- ([David Amaro Alcala](https://github.com/davidamaro "davidamaro"))
-- ([Ignacio Vargas](https://github.com/ignacio-vc "ignacio-vc"))
+- [Yuriko Yamamoto](https://github.com/Yuriyama "Yuriyama")
+- [David Amaro Alcala](https://github.com/davidamaro "davidamaro")
+- [Ignacio Vargas](https://github.com/ignacio-vc "ignacio-vc")
 
 #### Estructura de Directorios:
 - docs: Documentacion
-- src: .jl's
+- src: .jl's, archivos de plain text, esta bien hacer merge de estos
 - test: Tests
 - wip: Work In Progress, Jupyter Notebooks y demas. Idealmente no queremos merge de estos
 
