@@ -2,9 +2,13 @@
 
 ## Uso del caos para transmitir mensajes encriptados
 
-### Colaboradores: Yuriko Yamamoto (@Yuriyama), David Amaro Alcala (@davidamaro) , Ignacio Vargas (@ignacio-vc)
+### Estructura de Directorios:
+docs - Documentacion
+src - .jl's
+test - Tests
+wip - Work-in-Progress, Jupyter Notebooks y demas. Idealmente no queremos merge de estos
 
-#### Links utiles:
+### Links utiles:
 
 [Nonlinear Dynamics and Chaos - Strogatz (2014)](http://libgen.io/get.php?md5=93608D1E7D48FF61D25173674AF85BD7&key=ALGOHY9BRV5DVM5D "Lib Genesis")
 
@@ -27,3 +31,6 @@
 [New Possiblities for Cellular Automata in Cryptography](http://www.criptored.upm.es/cibsi/cibsi2011/info/Ponencias/5.%20New%20Possibilities%20for%20Cellular%20Automata%20in%20Cryptography.pdf "presentacion")
 
 [The Chaos Cookbook, A Practical Programming Guide](http://libgen.io/get.php?md5=20F14D04E0992220B0093F9F5D3A7551&key=H8DQQ2F1HMPVXGH8 "Lib Genesis")
+
+### Colaboradores: 
+Yuriko Yamamoto ([@Yuriyama](https://github.com/Yuriyama "Yuriyama")), David Amaro Alcala ([@davidamaro](https://github.com/davidamaro "davidamaro")) , Ignacio Vargas ([@ignacio-vc](https://github.com/ignacio-vc "ignacio-vc"))
