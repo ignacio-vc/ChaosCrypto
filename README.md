@@ -17,6 +17,7 @@ Uso del caos para transmitir mensajes encriptados
 
 [Nonlinear Dynamics and Chaos - Strogatz (2014)](http://libgen.io/get.php?md5=93608D1E7D48FF61D25173674AF85BD7&key=ALGOHY9BRV5DVM5D "Lib Genesis")
 
+[Synchronization of Lorenz-Based Chaotic Circuits with Applications to Communications](http://www.rle.mit.edu/dspg/documents/SynchroofLorenz.pdf "Artículo")
 [Chaos Applications in Telecommunications](http://libgen.io/get.php?md5=0C28EB7B594F94B10BDD9B9391228D85&key=OCJBN9OTSRT306XH "Lib Genesis")
 
 [Handbook of Chaos Control](http://libgen.io/get.php?md5=97455994EC81072A20A21293532926D1&key=I33OJ1BYKTFE0R1S "Lib Genesis")
