@@ -1,14 +1,17 @@
 include("RK4.jl")
 using PyPlot
 using RK
+using Interact
 σ=16.
 ρ=45.6
 β=4.
+fig = figure()
+@manipulate for φ in .001:.01:.1
+    withfig(fig) do
 
 function lorenzSin(xx,t)
     x, y, z, xr, yr, zr = xx
     
-    φ = 1e-3
     m = sin(φ*t)
     s = x + m
     
@@ -22,3 +25,5 @@ s=[x[1] for x in xs]+m
 mhat = s-[x[4] for x in xs]
 plot(ts,m)
 plot(ts,mhat)
+end
+end
