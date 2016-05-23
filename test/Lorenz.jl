@@ -2,10 +2,12 @@
 __precompile__(true)
 
 
-include("Automata.jl")
-using AD
 
 module LO
+    export generarTaylor,generarTaylor,generarSerie
+    export generaIntervalo,horner,integrador
+    export σ,ρ,β
+
 
     function generarTaylor(condIni, funcion)
         funcion(condIni)
@@ -50,15 +52,6 @@ module LO
     ρ = 60
     β = 8/3
 
-    function lorenz(xx, t)
-        x, y, z, xr, yr, zr= xx
-        AD.Taylor(x, [σ])*(AD.Taylor(x,[y])-AD.Taylor(x,[x])),
-        AD.Taylor(y,[x])*(AD.Taylor(y,[ρ])-AD.Taylor(y,[z]))-AD.Taylor(y,[y]),
-        AD.Taylor(z,[x])*AD.Taylor(z,[y])-AD.Taylor(z,[β])*AD.Taylor(z,[z]),
-        AD.Taylor(xr,[σ])*(AD.Taylor(xr,[y])-AD.Taylor(xr,[xr])),
-        AD.Taylor(yr,[ρ])*AD.Taylor(yr,[xr])-AD.Taylor(yr,[yr])-AD.Taylor(yr,[xr])*AD.Taylor(yr,[zr]),
-        AD.Taylor(zr,[xr])*AD.Taylor(zr,[yr])-AD.Taylor(zr,[β])*AD.Taylor(zr,[zr])
-    end
 
     function integrador(x0, f, tf)
         a = generarTaylor(x0,f)
