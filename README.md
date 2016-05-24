@@ -7,6 +7,12 @@ Uso del caos para transmitir mensajes encriptados
 - [David-Amaro Alcalá](https://github.com/davidamaro "davidamaro")
 - [Ignacio Vargas](https://github.com/ignacio-vc "ignacio-vc")
 
+#### Requisitos:
+Incluir la siguiente linea al archivo `.juliarc.jl`, localizado en `/home/username/`
+`push!(LOAD_PATH, "/home/ignacio/Documents/Physics/2016-2")`. Esto debe hacerse antes
+de correr Julia, o reiniciar Julia despues de realizar el cambio. Si no existe el archivo,
+nada mas se crea.
+
 #### Estructura de Directorios:
 - docs: Documentacion
 - src: .jl's, archivos de plain text, esta bien hacer merge de estos
