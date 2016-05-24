@@ -1,4 +1,4 @@
-# ChaosCrypto
+# ChaosCrypto.jl
 
 Uso del caos para transmitir mensajes encriptados
 
@@ -13,7 +13,8 @@ Incluir la siguiente linea al archivo `.juliarc.jl`, localizado en `/home/userna
 push!(LOAD_PATH, "/home/username/path/to/module") 
 ```
 
-Tal que el directorio clonado localmente, `ChaosCrypto.jl`, se encuentre ahi
+Tal que el directorio clonado localmente, `ChaosCrypto.jl`, se encuentre ahi.
+
 Por ejemplo
 ```
 push!(LOAD_PATH, "/home/ignacio/Documents/Physics/2016-2") 
@@ -24,12 +25,14 @@ Esto debe hacerse antes de correr Julia, o reiniciar Julia despues de realizar e
 nada mas se crea.
 
 #### Estructura de Directorios:
-- docs: Documentacion
-- src: .jl's, archivos de plain text, esta bien hacer merge de estos
+- docs: Documentacion y Presentacion
+- src: modulos .jl, esta bien hacer merge de estos
 - test: Tests
-- wip: Work In Progress, Jupyter Notebooks y demas. Idealmente no queremos merge de estos
+- wip: Work In Progress, Jupyter Notebooks y demas
 
 #### Referencias:
+
+##### Caos, Criptologia
 
 [Nonlinear Dynamics and Chaos - Strogatz (2014)](http://libgen.io/get.php?md5=93608D1E7D48FF61D25173674AF85BD7&key=ALGOHY9BRV5DVM5D "Lib Genesis")
 
@@ -47,10 +50,17 @@ nada mas se crea.
 
 [A secret message from another dimension](https://web.archive.org/web/20150214122103/http://jellymatter.com/2012/01/04/a-secret-message-from-another-dimension/ "ejemplo")
 
+[The Chaos Cookbook, A Practical Programming Guide](http://libgen.io/get.php?md5=20F14D04E0992220B0093F9F5D3A7551&key=H8DQQ2F1HMPVXGH8 "Lib Genesis")
+
+##### Julia + Audio
+[A really brief introduction to audio signal processing in Julia](http://www.seaandsailor.com/audiosp_julia.html "Audio")
+
+##### Cellular Automata (Imagenes)
+
 [Chaotic Encryption Method Based on Life-like Cellular Automata](http://arxiv.org/pdf/1112.6326v1.pdf "articulo")
 
 [The Research of Image Encryption Algorithms Based on Chaos Cellular Automata](https://pdfs.semanticscholar.org/bff7/e1fc9a4201e9b50b16314ceffd13c024edf4.pdf "articulo")
 
 [New Possiblities for Cellular Automata in Cryptography](http://www.criptored.upm.es/cibsi/cibsi2011/info/Ponencias/5.%20New%20Possibilities%20for%20Cellular%20Automata%20in%20Cryptography.pdf "presentacion")
 
-[The Chaos Cookbook, A Practical Programming Guide](http://libgen.io/get.php?md5=20F14D04E0992220B0093F9F5D3A7551&key=H8DQQ2F1HMPVXGH8 "Lib Genesis")
+
