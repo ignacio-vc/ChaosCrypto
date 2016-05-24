@@ -8,11 +8,6 @@ module LO
     export generaIntervalo,horner,integrador
     export σ,ρ,β
 
-
-    function generarTaylor(condIni, funcion)
-        funcion(condIni)
-    end
-
     function generarTaylor(condIni, funcion, t)
         funcion(condIni, t)
     end
@@ -54,13 +49,13 @@ module LO
 
 
     function integrador(x0, f, tf)
-        a = generarTaylor(x0,f)
+        a = generarTaylor(x0,f,0.)
         b = map(generarSerie,a)
         suma = map(horner,b)
         sol = Array{Float64,1}[x0, [suma...]]
         t = [0.,1e-3]
         while t[end] < tf
-            a = generarTaylor(sol[end],f)
+            a = generarTaylor(sol[end],f,t[end])
             b = map(generarSerie,a)
             suma = map(horner,b)
             push!(sol,[suma...])
