@@ -13,8 +13,14 @@ Incluir la siguiente linea al archivo `.juliarc.jl`, localizado en `/home/userna
 push!(LOAD_PATH, "/home/username/path/to/module") 
 ```
 
-Esto debe hacerse antes
-de correr Julia, o reiniciar Julia despues de realizar el cambio. Si no existe el archivo,
+Tal que el directorio clonado localmente, `ChaosCrypto.jl`, se encuentre ahi
+Por ejemplo
+```
+push!(LOAD_PATH, "/home/ignacio/Documents/Physics/2016-2") 
+```
+con el directorio `ChaosCrypto.jl` dentro de `2016-2`.
+
+Esto debe hacerse antes de correr Julia, o reiniciar Julia despues de realizar el cambio. Si no existe el archivo,
 nada mas se crea.
 
 #### Estructura de Directorios:
