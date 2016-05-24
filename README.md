@@ -13,7 +13,8 @@ Incluir la siguiente linea al archivo `.juliarc.jl`, localizado en `/home/userna
 push!(LOAD_PATH, "/home/username/path/to/module") 
 ```
 
-Tal que el directorio clonado localmente, `ChaosCrypto.jl`, se encuentre ahi
+Tal que el directorio clonado localmente, `ChaosCrypto.jl`, se encuentre ahi.
+
 Por ejemplo
 ```
 push!(LOAD_PATH, "/home/ignacio/Documents/Physics/2016-2") 

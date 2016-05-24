@@ -2,7 +2,7 @@ __precompile__(true)
 
 module ChaosCrypto
 
-export AD, LO
+export AD, LO, RK
 
 export Taylor, paso2,paso1
 export igualdad,logo,expo,seno,coseno
