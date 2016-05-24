@@ -1,6 +1,5 @@
-include("RK4.jl")
+using ChaosCrypto
 using PyPlot
-using RK
 using Interact
 σ=16.
 ρ=45.6

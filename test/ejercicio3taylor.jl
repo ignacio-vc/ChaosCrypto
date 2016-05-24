@@ -1,8 +1,4 @@
-include("Automata.jl")
-include("Lorenz.jl")
-
-using LO
-using AD
+using ChaosCrypto
 using PyPlot
 
 function lorenzSin(xx,t)

@@ -1,7 +1,4 @@
-include("Automata.jl")
-include("Lorenz.jl")
-using LO
-using AD
+using ChaosCrypto
 using PyPlot
 function lorenz(xx)
     x, y, z, xr, yr, zr= xx

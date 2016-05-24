@@ -9,7 +9,11 @@ Uso del caos para transmitir mensajes encriptados
 
 #### Requisitos:
 Incluir la siguiente linea al archivo `.juliarc.jl`, localizado en `/home/username/`
-`push!(LOAD_PATH, "/home/ignacio/Documents/Physics/2016-2")`. Esto debe hacerse antes
+```
+push!(LOAD_PATH, "/home/ignacio/Documents/Physics/2016-2") 
+```
+
+Esto debe hacerse antes
 de correr Julia, o reiniciar Julia despues de realizar el cambio. Si no existe el archivo,
 nada mas se crea.
 
