@@ -2,7 +2,7 @@ __precompile__(true)
 
 module ChaosCrypto
 
-export AD, LO, RK
+export AD, LO, RK, audioplayer
 
 export Taylor, paso2,paso1
 export igualdad,logo,expo,seno,coseno
@@ -16,5 +16,6 @@ export runge4, integrar
 include("Automata.jl")
 include("Lorenz.jl")
 include("RK4.jl")
+include("AudioDisplay")
 
 end
