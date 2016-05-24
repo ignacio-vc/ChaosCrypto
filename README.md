@@ -10,7 +10,7 @@ Uso del caos para transmitir mensajes encriptados
 #### Requisitos:
 Incluir la siguiente linea al archivo `.juliarc.jl`, localizado en `/home/username/`
 ```
-push!(LOAD_PATH, "/home/ignacio/Documents/Physics/2016-2") 
+push!(LOAD_PATH, "/home/username/path/to/module") 
 ```
 
 Esto debe hacerse antes
