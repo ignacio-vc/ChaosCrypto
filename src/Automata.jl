@@ -149,5 +149,5 @@ module AD
     cos(a::Taylor) = coseno(a.coef,a.ini)
     sin(a::Taylor) = seno(a.coef,a.ini)
     log(a::Taylor) = logo(a.coef,a.ini)
-    ^(a::Taylor, α::Number) = expo(a.coef,α,a.ini)
+    ^(a::Taylor, α::Integer) = expo(a.coef,α,a.ini)
 end
