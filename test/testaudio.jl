@@ -23,7 +23,7 @@ function lorenzAudio(xx,t)
         AD.Taylor(zr,[(s*yr - LO.β*zr)])]
 end
 
-vecs,t = LO.integrador([1.,1.,1.,1.,100.,100.],lorenzAudio,10.+889*1e-3)
+vecs,t = LO.integrador([1.,1.,1.,1.,100.,100.],lorenzAudio,(length(usados)-2)*1e-3)
 
 m=usados[1:length(vecs)]
 s=[x[1] for x in vecs]+m
