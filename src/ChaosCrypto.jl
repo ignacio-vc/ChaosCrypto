@@ -16,6 +16,6 @@ export runge4, integrar
 include("Automata.jl")
 include("Lorenz.jl")
 include("RK4.jl")
-include("AudioDisplay")
+include("AudioDisplay.jl")
 
 end
