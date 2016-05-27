@@ -1,21 +1,14 @@
 #Modulo Lorenz
 __precompile__(true)
 
-
-
 module LO
     export generarTaylor,generarSerie
     export generaIntervalo,horner,integrador
     export σ,ρ,β
 
-<<<<<<< HEAD:test/Lorenz.jl
-
-=======
->>>>>>> ignacio:src/Lorenz.jl
     function generarTaylor(condIni, funcion, t)
         funcion(condIni, t)
     end
-
 
     function generarSerie(polTalor)
         x = Float64[]
@@ -51,7 +44,6 @@ module LO
     σ = 10
     ρ = 60
     β = 8/3
-
 
     function integrador(x0, f, tf)
         a = generarTaylor(x0,f,0.)
