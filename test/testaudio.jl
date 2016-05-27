@@ -1,9 +1,6 @@
-include("Lorenz.jl")
 using WAV
 using PyPlot
-using LO
-include("Automata.jl")
-using AD
+using ChaosCrypto
 
 # cosas para el audio
 sonido,fs = wavread("test.wav");
