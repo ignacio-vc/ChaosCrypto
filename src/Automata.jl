@@ -4,9 +4,9 @@
 __precompile__(true)
 
 module AD
-    """Definición de polinomios de Taylor
-    ...
-    """
+    export Taylor, paso2,paso1
+    export igualdad,logo,expo,seno,coseno
+
     type Taylor{T<:Number,S<:Number}
         ini :: T # Valor en el que se calcula la serie
         coef :: Array{S,1} # coeficiente normalizado de Taylor
@@ -149,5 +149,5 @@ module AD
     cos(a::Taylor) = coseno(a.coef,a.ini)
     sin(a::Taylor) = seno(a.coef,a.ini)
     log(a::Taylor) = logo(a.coef,a.ini)
-    ^(a::Taylor, α::Number) = expo(a.coef,α,a.ini)
+    ^(a::Taylor, α::Integer) = expo(a.coef,α,a.ini)
 end

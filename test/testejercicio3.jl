@@ -1,6 +1,5 @@
-include("RK4.jl")
+using ChaosCrypto
 using PyPlot
-using RK
 using Interact
 σ=16.
 ρ=45.6
@@ -19,7 +18,7 @@ function lorenzSin(xx,t)
      σ*(yr-xr), (ρ*s - yr - s*zr) , (s*yr - β*zr)]
 end
 
-xs, ts = integrar(lorenzSin,[1., 1., 1., 10., 10., 10.],0. ,100. ,1e-3);
+xs, ts = RK.integrar(lorenzSin,[1., 1., 1., 10., 10., 10.],0. ,100. ,1e-3);
 m=sin(ts)
 s=[x[1] for x in xs]+m
 mhat = s-[x[4] for x in xs]

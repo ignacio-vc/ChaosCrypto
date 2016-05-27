@@ -8,7 +8,10 @@ module LO
     export generaIntervalo,horner,integrador
     export σ,ρ,β
 
+<<<<<<< HEAD:test/Lorenz.jl
 
+=======
+>>>>>>> ignacio:src/Lorenz.jl
     function generarTaylor(condIni, funcion, t)
         funcion(condIni, t)
     end
