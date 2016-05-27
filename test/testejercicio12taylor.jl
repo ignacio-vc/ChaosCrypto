@@ -1,6 +1,6 @@
 using ChaosCrypto
 using PyPlot
-function lorenz12(xx)
+function lorenz12(xx,t)
     x, y, z, xr, yr, zr= xx
     AD.Taylor(x, [LO.σ])*(AD.Taylor(x,[y])-AD.Taylor(x,[x])),
     AD.Taylor(y,[x])*(AD.Taylor(y,[LO.ρ])-AD.Taylor(y,[z]))-AD.Taylor(y,[y]),
