@@ -1,10 +1,8 @@
 #Modulo Lorenz
 __precompile__(true)
 
-
-
 module LO
-    export generarTaylor,generarTaylor,generarSerie
+    export generarTaylor,generarSerie
     export generaIntervalo,horner,integrador
     export σ,ρ,β
 
@@ -46,7 +44,6 @@ module LO
     σ = 10
     ρ = 60
     β = 8/3
-
 
     function integrador(x0, f, tf)
         a = generarTaylor(x0,f,0.)
