@@ -42,7 +42,7 @@ module LO
     end
 
     σ = 10
-    ρ = 60
+    ρ = 28
     β = 8/3
 
     function integrador(x0, f, tf)
