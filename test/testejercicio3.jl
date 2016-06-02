@@ -22,6 +22,7 @@ xs, ts = RK.integrar(lorenzSin,[1., 1., 1., 10., 10., 10.],0. ,100. ,1e-3);
 m=sin(ts)
 s=[x[1] for x in xs]+m
 mhat = s-[x[4] for x in xs]
+title("Ejercicio 3 con RK")
 plot(ts,m)
 plot(ts,mhat)
 end
