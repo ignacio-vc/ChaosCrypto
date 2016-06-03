@@ -1,7 +1,7 @@
 #Ejercicio 9.6.5
 #Variando frecuencias
 
-push!(LOAD_PATH, "/Users/Yuriko/ChaosCrypto.jl/src/")
+push!(LOAD_PATH, "/Users/Yuriko/ChaosCrypto.jl/test/")
 
 
 using ChaosCrypto
@@ -10,7 +10,7 @@ using Interact
 
 
 fig = figure()
-@manipulate for φ = .0001:.01:.1 
+@manipulate for φ = .0001:.005:.3 
     withfig(fig) do
     @show(φ)
 
@@ -45,18 +45,10 @@ xs, ts = LO.integrador([1.0,1.0,1.0,1.0,10.0,10.0], lorenzSinTaylor, 500.0)
 mhat = s - [x[4] for x in xs] #mensaje recibido, que es s - xr, debe ser aproximadamente m 
     
 
-#Gráfica 1
-plot(ts,m) #Gráfica de la señal o mensaje
-plot(ts,mhat) #Gráfica de la señal recibida
-title("Gráfica de la señal enviada y recibida")
-xlabel("t")
-ylim(-5, 5)
-xlim(0.0, 200.0)
-
 
 
 #Gráfica 2   
-fig = figure()
+
 plot(ts,[x[1] - x[4] for x in xs]) #Gráfica de la diferencia entre el mensaje enviado y el recibido
 ylim(-5, 5)
 xlim(0.0, 500.0)
@@ -67,7 +59,6 @@ xlabel("t")
         
 
 
-end
+
 end #del manipulate
-end
 end
